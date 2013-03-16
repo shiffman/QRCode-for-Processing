@@ -1,6 +1,3 @@
-
-import qrcodeprocessing.*;
-
 /*
 QRcode reader
  Generate images from a QRcode generator such as
@@ -14,6 +11,8 @@ QRcode reader
  */
 
 
+import processing.video.*;
+import qrcodeprocessing.*;
 
 Capture video;                                 // instance of the video capture library
 String statusMsg = "Waiting for an image";     // a string to return messages:
